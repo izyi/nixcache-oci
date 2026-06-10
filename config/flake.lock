@@ -1,0 +1,47 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1780749050,
+        "narHash": "sha256-3av0pIjlOWQ6rDbNOmpUSvbNnJkGORQKKjb4LtCZsIY=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "a799d3e3886da994fa307f817a6bc705ae538eeb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "obk-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1778393359,
+        "narHash": "sha256-5WJfektnu29qrfqyzsmFkZ7SEG6TlM8OcRLVux5GnE0=",
+        "ref": "refs/heads/master",
+        "rev": "ad7eb41f37744a161e5378223c4b123629c90571",
+        "shallow": true,
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/OpenBangla/OpenBangla-Keyboard.git"
+      },
+      "original": {
+        "shallow": true,
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/OpenBangla/OpenBangla-Keyboard.git"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "obk-src": "obk-src"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
